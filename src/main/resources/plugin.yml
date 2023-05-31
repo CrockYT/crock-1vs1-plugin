@@ -1,0 +1,20 @@
+name: "crock1vs1"
+version: "0.0.3"
+main: "vb.$crock1vs1.PluginMain"
+api-version: 1.13
+authors: [CrockYT]
+description: "Crock's make 1vs1plugin^^"
+prefix: "Crock's makre 1v1 pvp plugin"
+website: "https://github.com/CrockYT/crock-1vs1-plugin"
+commands:
+  c1v1:
+    description: "crock1v1メインコマンド"
+    permission: "crockpvp.command.c1v1"
+    permission-message: "&c権限がありませんよ"
+    usage: "/c1v1 [help(start|stop)|start|stop|gui]"
+  chelp:
+    description: "crock's 1vs1 help command"
+    permission: "crockpvp.command.chelp"
+    permission-message: "&c権限がありませんよ"
+    usage: "/chelp"
+permissions:
